@@ -1,0 +1,350 @@
+{
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "editor.renderWhitespace": "none",
+    "editor.suggestSelection": "first",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vikings-icon-theme.activeIconPack": "react",
+    "vikings-icon-theme.folders.color": "#42a5f5",
+    "vikings-icon-theme.hidesExplorerArrows": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "vsintellicode.modelDownloadPath": "",
+    "files.associations": {
+        "*.js": "javascript"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.fontFamily": "'Dank Mono','Victor Mono','Fira Code Script', 'JetBrains Mono','MesloLGS NF', 'monospace', monospace",
+    "markdown.preview.fontFamily": "Dank Mono",
+    "settingsSync.ignoredSettings": [
+        "editor.codeLensFontFamily"
+    ],
+    "terminal.integrated.fontFamily": "'MesloLGS NF', monospace",
+    "editor.codeLensFontFamily": "'MesloLGS NF',monospace",
+    "git.confirmSync": false,
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.defaultProfile.windows": "bash",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.external.windowsExec": "C:\\\\Windows\\\\System32\\\\bash.exe",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#0d1117",
+        "activityBar.border": "#b392f0",
+        "sideBar.background": "#0D1117",
+        "sideBar.border": "#0d1117",
+        "sideBarSectionHeader.background": "#1B2430",
+        "tab.border": "#B392F0",
+        "tab.activeForeground": "#b392f0",
+        "tab.activeBorder": "#1B2430",
+        "scrollbarSlider.background": "#0715278e",
+        "scrollbar.shadow": "#1B2430",
+        "statusBar.background": "#0D1117",
+        "editor.background": "#0D1117",
+        "terminal.background": "#0c0c10",
+        "editorInlayHint.background": "#00001c00",
+        "editorInlayHint.foreground": "#99ffbbcc",
+        "editorInlayHint.parameterBackground": "#a5a5a512",
+        "editorLineNumber.foreground": "#b392f0"
+    },
+    "bracketLens.mode": "auto",
+    "bracketLens.languageConfiguration": {
+        "ignoreCase": true,
+        "comments": {
+            "block": [
+                {
+                    "opening": "/*",
+                    "closing": "*/"
+                }
+            ],
+            "line": [
+                "//"
+            ]
+        },
+        "brackets": {
+            "symbol": [
+                {
+                    "opening": "(",
+                    "closing": ")",
+                    "headerMode": "smart",
+                    "inters": []
+                },
+                {
+                    "opening": "[",
+                    "closing": "]",
+                    "headerMode": "smart",
+                    "inters": []
+                },
+                {
+                    "opening": "{",
+                    "closing": "}",
+                    "headerMode": "smart",
+                    "inters": []
+                }
+            ],
+            "word": []
+        },
+        "strings": {
+            "inline": [
+                {
+                    "opening": "\"",
+                    "closing": "\"",
+                    "escape": [
+                        "\\\\",
+                        "\\\""
+                    ]
+                },
+                {
+                    "opening": "'",
+                    "closing": "'",
+                    "escape": [
+                        "\\\\",
+                        "\\'"
+                    ]
+                }
+            ],
+            "multiline": [
+                {
+                    "opening": "`",
+                    "closing": "`",
+                    "escape": [
+                        "\\\\",
+                        "\\`"
+                    ]
+                }
+            ]
+        },
+        "terminators": [
+            ";",
+            ","
+        ],
+        "ignoreSymbols": [
+            "\\//"
+        ]
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true,
+        "cpp": true,
+        "javascript": true,
+        "typescript": true,
+        "typescriptreact": true,
+        "javascriptreact": true,
+        "go": true,
+        "Log": true
+    },
+    // "github.copilot.inlineSuggest.enable": true,
+    "github.copilot.advanced": {},
+    // disable copilot sound effect
+    "github.copilot.sound": false,
+    "eslint.alwaysShowStatus": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    // agregar punto y coma
+    "prettier.semi": true,
+    // agregar los parentesis en una arrow function cuando se escribe un solo parametro
+    "prettier.arrowParens": "always",
+    "editor.guides.bracketPairs": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.type",
+                    "keyword",
+                    "constant",
+                    "storage.modifier",
+                    "emphasis",
+                    "invalid",
+                    "markup",
+                    "entity.other.attribute-name",
+                    "entity.name.method",
+                    "support.constant.property-value",
+                    "support.type",
+                    "enitry.parameter.function",
+                    "entity.name.tag",
+                    "entity.name.section",
+                    "meta.import.js",
+                    "meta.function-call.arguments",
+                    "entity.name.function",
+                    "entity",
+                    "variable.other.property.js",
+                    "support.variable.property.js"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "comment",
+                    "storage.type"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "entity.parameter.method",
+                    "support.function",
+                    "entity.other.attribute-name",
+                    "meta,function",
+                    "constant",
+                    "export",
+                    "enum",
+                    // "storage.type",
+                    "entity.other.inherited-class",
+                    "enity.parameter.function",
+                    "entity.parameter.method",
+                    "entity.name.method",
+                    "meta.function.parameters",
+                    "entity.name.class",
+                    "entity.name.function.parameter",
+                    "support.constant",
+                    "entity.name.type",
+                    "variable.parameter.js",
+                    "entity.name.tag.css"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    "comment",
+                    "punctuation",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "foreground": "#AAC4FF"
+                }
+            },
+            {
+                "scope": [
+                    "string",
+                    "punctuation.definition.string"
+                ],
+                "settings": {
+                    "foreground": "#DEEBFF80"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name"
+                ],
+                "settings": {
+                    "foreground": "#54BAB9",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "editor.inlineSuggest.enabled": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "editor.linkedEditing": true,
+    "workbench.editor.enablePreview": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "editor.renderLineHighlight": "gutter",
+    "editor.occurrencesHighlight": false,
+    "editor.selectionHighlight": false,
+    "vscode_custom_css.imports": [
+        ""
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "eslint.run": "onSave",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.vivid": true,
+    "editor.formatOnSave": true,
+    "vikings-icon-theme.folders.theme": "specific",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "glassit.alpha": 255,
+    "errorLens.fontWeight": "800",
+    // "errorLens.fontStyleItalic": true,
+    // "errorLens."
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.validate": [
+        "javascript"
+    ],
+    "editor.wordWrap": "on",
+    "errorLens.fontStyle": "normal",
+    "editor.fontSize": 17.5,
+    "liquid.format": true,
+    "window.menuBarVisibility": "toggle",
+    "redhat.telemetry.enabled": true,
+    "workbench.productIconTheme": "icons-octicons",
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "vscode-pets.position": "explorer",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "editor.semanticTokenColorCustomizations": {
+        "[Xcode Default Dark]": {
+            "rules": {
+                "comment": "#ff0000",
+                "comment.line.number-sign.python": "#fff"
+            }
+        }
+    },
+    "workbench.colorTheme": "Ario",
+    "window.zoomLevel": -2,
+    "vscode-pets.petSize": "large",
+    "audioCues.lineHasInlineSuggestion": "off",
+    "editor.inlayHints.fontSize": 12,
+    "editor.inlayHints.padding": true,
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.parameterTypes.enabled": false,
+    "typescript.inlayHints.variableTypes.enabled": false,
+    "turboConsoleLog.logFunction": "console.info",
+    "turboConsoleLog.delimiterInsideMessage": "~> ",
+    "editor.stickyScroll.enabled": true
+}
