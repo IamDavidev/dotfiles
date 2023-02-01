@@ -57,6 +57,7 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.external.windowsExec": "C:\\\\Windows\\\\System32\\\\bash.exe",
     "workbench.colorCustomizations": {
+        "editorGutter.background": "#0D1117",
         "activityBar.background": "#0d1117",
         "activityBar.border": "#b392f0",
         "sideBar.background": "#0D1117",
@@ -69,11 +70,12 @@
         "scrollbar.shadow": "#1B2430",
         "statusBar.background": "#0D1117",
         "editor.background": "#0D1117",
+        "editorGroupHeader.tabsBackground": "#0D1117",
         "terminal.background": "#0c0c10",
         "editorInlayHint.background": "#00001c00",
         "editorInlayHint.foreground": "#99ffbbcc",
         "editorInlayHint.parameterBackground": "#a5a5a512",
-        "editorLineNumber.foreground": "#b392f0"
+        "editorLineNumber.foreground": "#b393f0"
     },
     "bracketLens.mode": "auto",
     "bracketLens.languageConfiguration": {
